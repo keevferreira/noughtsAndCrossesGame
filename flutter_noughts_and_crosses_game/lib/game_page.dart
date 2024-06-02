@@ -147,7 +147,7 @@ class _GamePageState extends State<GamePage> {
 
       if (posicao0.isNotEmpty) {
         if (posicao0 == posicao1 && posicao0 == posicao2) {
-          mostrarMensagemJogoEncerrado("Jogador $posicao0 venceu!");
+          mostrarMensagemJogoEncerrado("Jogador '$posicao0' venceu!");
           jogoAcabou = true;
           return;
         }
